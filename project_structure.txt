@@ -1,0 +1,11 @@
+Project SetUp -> First Server -> MVC (Model View Controller) Pattern -> Model Routes -> Hashing -> Auth & Token -> User API -> JOBS API -> Stats & Filters -> More Security -> API Docs -> Deployment.
+
+Model = Database
+View = React js, angular js , vue
+Controller = Business Logic
+
+** If we don't want to use try-catch block, then we should use express-async-errors package
+** helmet package secure the header section part.
+** cross-site scripting (xss) package connect middleware to sanitize user input coming from post body.
+** express-mongo-sanitize package is a middleware which sanitizes user-supplied data to prevent mongodb operator injection.
+** express-rate-limit package is a rate limiting middleware for express. use to limit repeated requests to public API's and/or endpoints such as password reset.
